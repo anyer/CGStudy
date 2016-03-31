@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bson' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose install initial load of E:\nodejs\nodejs_express_login_register-master\test\package.json
+5 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\body-parser\package.json
+6 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\bson\package.json
+7 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\cookie-parser\package.json
+8 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\debug\package.json
+9 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\ejs\package.json
+10 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\express\package.json
+11 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\express-session\package.json
+12 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\mongoose\package.json
+13 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\morgan\package.json
+14 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\multer\package.json
+15 verbose installManyTop reading scoped package data from E:\nodejs\nodejs_express_login_register-master\test\node_modules\serve-favicon\package.json
+16 info package.json cookie-parser@1.3.4 No license field.
+17 info package.json bson@0.2.21 No license field.
+18 info package.json mongoose@3.8.25 No license field.
+19 verbose readDependencies loading dependencies from E:\nodejs\nodejs_express_login_register-master\test\package.json
+20 verbose install bson is installed as 0.2.21
+21 silly cache add args [ 'bson', null ]
+22 verbose cache add spec bson
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'bson',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'bson',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: 'latest',
+23 silly cache add   type: 'tag' }
+24 silly addNamed bson@latest
+25 verbose addNamed "latest" is being treated as a dist-tag for bson
+26 info addNameTag [ 'bson', 'latest' ]
+27 silly mapToRegistry name bson
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/bson
+31 verbose addNameTag registry:https://registry.npmjs.org/bson not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/bson
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 13:21:40
+35 verbose request id 2adea75f5ee08b87
+36 verbose etag "5M7Q5UHIZYW9VP7MNTW6HGGR1"
+37 http request GET https://registry.npmjs.org/bson
+38 info retry will retry, error on last attempt: Error: socket hang up
+39 info attempt registry request try #2 at 13:22:56
+40 verbose etag "5M7Q5UHIZYW9VP7MNTW6HGGR1"
+41 http request GET https://registry.npmjs.org/bson
+42 info retry will retry, error on last attempt: Error: read ECONNRESET
+43 info attempt registry request try #3 at 13:24:15
+44 verbose etag "5M7Q5UHIZYW9VP7MNTW6HGGR1"
+45 http request GET https://registry.npmjs.org/bson
+46 silly get cb [ 304, undefined ]
+47 verbose etag https://registry.npmjs.org/bson from cache
+48 verbose get saving bson to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\bson\.cache.json
+49 silly addNameTag next cb for bson with tag latest
+50 silly addNamed bson@0.4.22
+51 verbose addNamed "0.4.22" is a plain semver version for bson
+52 silly mapToRegistry name bson
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/bson
+56 verbose addRemoteTarball https://registry.npmjs.org/bson/-/bson-0.4.22.tgz not in flight; adding
+57 verbose addRemoteTarball [ 'https://registry.npmjs.org/bson/-/bson-0.4.22.tgz',
+57 verbose addRemoteTarball   '3dee54807286363bdf921c22de54e8d920a052d1' ]
+58 info retry fetch attempt 1 at 13:25:27
+59 info attempt registry request try #1 at 13:25:27
+60 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+61 info retry will retry, error on last attempt: Error: socket hang up
+62 info attempt registry request try #2 at 13:26:42
+63 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+64 info retry will retry, error on last attempt: Error: socket hang up
+65 info attempt registry request try #3 at 13:28:47
+66 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+67 error fetch failed https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+68 warn retry will retry, error on last attempt: Error: read ECONNRESET
+69 info retry fetch attempt 2 at 13:29:18
+70 info attempt registry request try #1 at 13:29:18
+71 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+72 info retry will retry, error on last attempt: Error: socket hang up
+73 info attempt registry request try #2 at 13:30:31
+74 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+75 info retry will retry, error on last attempt: Error: read ECONNRESET
+76 info attempt registry request try #3 at 13:31:50
+77 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+78 error fetch failed https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+79 warn retry will retry, error on last attempt: Error: read ECONNRESET
+80 info retry fetch attempt 3 at 13:33:14
+81 info attempt registry request try #1 at 13:33:14
+82 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+83 info retry will retry, error on last attempt: Error: read ECONNRESET
+84 info attempt registry request try #2 at 13:33:45
+85 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+86 info retry will retry, error on last attempt: Error: read ECONNRESET
+87 info attempt registry request try #3 at 13:35:08
+88 http fetch GET https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+89 error fetch failed https://registry.npmjs.org/bson/-/bson-0.4.22.tgz
+90 verbose stack Error: read ECONNRESET
+90 verbose stack     at exports._errnoException (util.js:870:11)
+90 verbose stack     at TLSWrap.onread (net.js:544:26)
+91 verbose cwd E:\nodejs\nodejs_express_login_register-master\test
+92 error Windows_NT 6.1.7601
+93 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "bson"
+94 error node v4.2.4
+95 error npm  v2.14.12
+96 error code ECONNRESET
+97 error errno ECONNRESET
+98 error syscall read
+99 error network read ECONNRESET
+99 error network This is most likely not a problem with npm itself
+99 error network and is related to network connectivity.
+99 error network In most cases you are behind a proxy or have bad network settings.
+99 error network
+99 error network If you are behind a proxy, please make sure that the
+99 error network 'proxy' config is set properly.  See: 'npm help config'
+100 verbose exit [ 1, true ]
